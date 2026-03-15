@@ -1,0 +1,11 @@
+<?php
+session_start();
+unset($_SESSION["s_id"]);
+unset($_SESSION["t_id"]);
+unset($_SESSION["s_name"]);
+unset($_SESSION["t_name"]);
+unset($_SESSION["username"]);
+unset($_SESSION["a_password"]);
+header("Location:login.php");
+//logout
+?>
